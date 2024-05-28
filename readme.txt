@@ -14,6 +14,3 @@ $bytes = [System.Convert]::FromBase64String($base64String)
 [System.IO.File]::WriteAllBytes($outputFilePath, $bytes)
 
 Write-Output "The binary file has been created successfully at $outputFilePath"
-
-
-https://drive.google.com/drive/folders/1jHJmWjzBVc8daGqOJASX7SFwxf1-WS9Y?usp=sharing
